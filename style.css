@@ -1,0 +1,23 @@
+/* Garante um foco visível e acessível para navegação por teclado */
+:focus {
+  outline: 3px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+}
